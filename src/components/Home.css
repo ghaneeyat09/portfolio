@@ -36,7 +36,7 @@
     height: 40px;
     /* background-color: transparent; */
     border: 1px solid #2288e4;
-    margin-top: 50px;
+    margin-top: 30px;
     overflow: hidden;
     cursor: pointer;
 }
@@ -80,6 +80,7 @@
     color: white;
     transition: all .5s ease-in-out;
     cursor: pointer;
+    text-align: center;
 }
 .navItem:hover{
     color: #2288e4;
@@ -89,6 +90,7 @@
 }
 .anchorlink{
     text-decoration: none;
+    width: 25px;
 }
 /* #about a{
     text-transform: capitalize;
@@ -157,7 +159,7 @@
 }
 
 .custom-shape-divider-bottom-1656961706 .shape-fill {
-    fill: #2258E4;
+    fill: #2288e4;
     transition: fill 1s ease-in-out;
 }
 .custom-shape-divider-bottom-1656961706 .shape-fill:hover{
@@ -184,6 +186,14 @@
     }
     .name h1{
         font-size: 25px;
+    }
+    .name h2{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 390px){
+    .name h1{
+        font-size: 22px;
     }
     .name h2{
         font-size: 16px;
