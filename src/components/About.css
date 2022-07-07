@@ -1,0 +1,83 @@
+#about{
+   width: 100%;
+   background-color: white;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+#about h1{
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #050a4e;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #2288e4;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+}
+.aboutme, .skills{
+    width: 40%;
+}
+.aboutme{
+    color: #050a4e;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.skills ul li{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    list-style: none;
+    background-color: #2288e4;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    color: #050a4e;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.skills ul li:hover{
+    background-color: #050a4e;
+    color: #2288e4
+}
+.layout{
+    aspect-ratio: 900/600;
+    width: 91%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 600px;
+    opacity: 0.18;
+}
+.blob{
+    background-image: url("../polygon-scatter-haikei.png");
+}
+@media screen and (max-width: 780px) {
+    .container{
+        display: block;
+    }
+    .aboutme, .skills{
+        width: 100%;
+    }
+    .aboutme{
+        text-align: center;
+    }
+    .skills{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .layout{
+        top: 630px;
+        width: 100%;
+    }
+}

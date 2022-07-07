@@ -1,0 +1,88 @@
+
+#portfolio{
+    background-color: #050a4e;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    height: auto;
+}
+#portfolio .header{
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #2288e4;
+}
+.wrapper{
+    width: 25%;
+    /* height: 10%; */
+    height: auto;
+    overflow: hidden;
+    /* background-color: #2288e4; */
+    position: relative;
+    cursor: pointer;
+}
+.collection{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .blind{
+    background-color: rgba(2, 2, 50, 0.563);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    text-align: center;
+}
+.wrapper .blind h1{
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(223, 217, 217);
+}
+.wrapper .blind p{
+    color: rgb(223, 217, 217);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+.wrapper .blind .tech{
+    font-size: 12px;
+}
+.wrapper:hover .blind{
+    transform: translateX(300px);
+}
+.img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.link{
+    text-decoration: none;
+}
+@media screen and (max-width: 780px) {
+    .collection{
+        display: block;
+    }
+    .wrapper{
+        width: 54%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .wrapper .blind{
+        left: -330px;
+    }
+    .wrapper:hover .blind{
+        transform: translateX(330px);
+    }
+}
