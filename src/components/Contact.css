@@ -46,3 +46,11 @@
     color: black;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .contactWrapper{
+        width: 90%;
+    }
+    .close{
+        left: 95%;
+    }
+}

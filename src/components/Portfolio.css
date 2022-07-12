@@ -86,3 +86,9 @@
         transform: translateX(330px);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .height{
+        height: 150px;
+    }
+}
