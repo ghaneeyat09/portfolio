@@ -88,7 +88,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    .height{
-        height: 150px;
+    .wrapper{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper{
+        width: 85%;
     }
 }

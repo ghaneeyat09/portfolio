@@ -33,7 +33,8 @@ const Home = () => {
                          strings={[
                             'Software Engineer',
                             'Website developer',
-                            "Freelancer"
+                            'FullStack Developer',
+                            'Frontend Specialist'
                         ]}
                             typeSpeed={120}
                             backSpeed={50}

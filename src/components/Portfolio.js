@@ -6,7 +6,7 @@ const Portfolio = () => {
             <h1 className="header">Portfolio</h1>
             <div className="collection">
                 <div className="wrapper height">
-                   <img src={process.env.PUBLIC_URL + "/images/img1.jpeg"} alt="" className="img"/>
+                   <img src={process.env.PUBLIC_URL + "/images/img4.jpg"} alt="" className="img"/>
                    <div className="blind">
                        <a href="https://govacc.herokuapp.com/" className="link"><h1>Govac</h1></a>
                        <p>Tour and travel agency</p>
