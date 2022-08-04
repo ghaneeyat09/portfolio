@@ -16,7 +16,7 @@ const Portfolio = () => {
                 <div className="wrapper height">
                    <img src={process.env.PUBLIC_URL + "/images/img2.jpeg"} alt="" className="img"/>
                    <div className="blind">
-                       <a href="https://govacc.herokuapp.com/" className="link"><h1>Fitness</h1></a>
+                       <a href="https://fittnesss.herokuapp.com/" className="link"><h1>Fitness</h1></a>
                        <p>Fitness and Gym</p>
                        <p className="tech">React app</p>
                    </div>
