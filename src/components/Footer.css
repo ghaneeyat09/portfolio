@@ -37,4 +37,11 @@
     text-transform: uppercase;
     font-family: 'Mulish', sans-serif;
     color:#050a4e;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 320px){
+    .iconWrap{
+        width: 90%;
+        margin: auto;
+    }
 }

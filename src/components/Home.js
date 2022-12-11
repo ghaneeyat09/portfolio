@@ -31,10 +31,8 @@ const Home = () => {
                     <h2>&lt;code&gt;&nbsp;I'm a&nbsp;
                         <Typed 
                          strings={[
-                            'Software Engineer',
-                            'Website developer',
-                            'FullStack Developer',
-                            'Frontend Specialist'
+                            'Website Developer',
+                            'FullStack Developer'
                         ]}
                             typeSpeed={120}
                             backSpeed={50}

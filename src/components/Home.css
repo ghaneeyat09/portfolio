@@ -199,3 +199,17 @@
         font-size: 16px;
     }
 }
+@media screen and (max-width: 350px){
+    .navbar{
+        width: 90%;
+    }
+    .name h1{
+        font-size: 20px;
+    }
+    .name h2{
+        font-size: 14px;
+    }
+    .name .fullname{
+        text-transform: uppercase;
+    }
+}

@@ -23,12 +23,14 @@
     /* background-color: #2288e4; */
     position: relative;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 .collection{
     width: 80%;
     margin: auto;
     margin-top: 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .wrapper .blind{

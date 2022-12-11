@@ -17,9 +17,9 @@ const About = () => {
                         <li>Vuejs</li>
                         <li>Nodejs</li>
                         <li>Expressjs</li>
-                        <li>Databases</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
                         <li>Responsive Design</li>
-                        <li>Git</li>
                         <li>Deployment</li>
                     </ul>
                 </div>
