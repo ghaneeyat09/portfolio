@@ -6,7 +6,7 @@ const About = () => {
             <div className="layout blob"></div>
             <div className="container">
                 <div className="aboutme">
-                        <p>A Passion driven and proficient Software Engineer with years of experience in website development.I build very nice websites using both frontend and backend technologies.I write efficient and non-redundant lines of code that ensures great user experience.</p>
+                        <p>I am a Proficient and passion driven Web Developer with years of experience in website development.I build very nice websites using both frontend and backend technologies.I write efficient and non-redundant lines of code that ensures great user experience.</p>
                 </div>
                 <div className="skills">
                     <ul>

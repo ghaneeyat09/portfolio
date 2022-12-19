@@ -25,6 +25,7 @@
     color: rgb(223, 217, 217);
     font-family: sans-serif;
     margin-top: 5px;
+    font-size: 18px;
 
 }
 .name .fullname{
@@ -174,9 +175,6 @@
     }
     .name h1{
         font-size: 30px;
-    }
-    .name h2{
-        font-size: 20px;
     }
 }
 @media screen and (max-width: 450px){
