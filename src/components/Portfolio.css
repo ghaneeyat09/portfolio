@@ -17,12 +17,13 @@
 }
 .wrapper{
     width: 30%;
-    /* height: 10%; */
-    height: auto;
+    height: 200px;
     overflow: hidden;
     /* background-color: #2288e4; */
     position: relative;
     cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 30px;
 }
 .collection{
@@ -31,7 +32,7 @@
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .wrapper .blind{
     background-color: rgba(2, 2, 50, 0.563);
@@ -52,6 +53,9 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: rgb(223, 217, 217);
+}
+.wrapper .blind .alyusroh{
+    font-size: 26px;
 }
 .wrapper .blind p{
     color: rgb(223, 217, 217);
